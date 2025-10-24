@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #0a0a0a;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Header */
+header h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+header .tagline {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+/* Sections */
+section {
+  margin: 60px 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #eaeaea;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #1db954; /* Spotify green glow on hover */
+  text-shadow: 0 0 10px #1db954;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+/* Spotify iframe */
+iframe {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: 80px;
+  font-size: 0.8rem;
+  color: #555;
+}
