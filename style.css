@@ -17,41 +17,61 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 50px 0;
-  text-align: center;
 }
 
 /* Header */
 header h1 {
+  text-align: center; /* Title remains centered */
   font-size: 4rem;
+  font-weight: bold;
   margin-bottom: 10px;
+  text-shadow: 0 0 10px #1db954, 0 0 20px #1db954;
+  color: #eaeaea;
 }
 
 header .tagline {
+  text-align: left; /* Left-aligned */
   font-size: 1.2rem;
-  color: #aaa;
+  font-weight: normal; /* Not bold */
+  color: #eaeaea;
+  margin-bottom: 50px;
+  text-shadow: 0 0 8px #1db954;
 }
 
 /* Sections */
 section {
   margin: 60px 0;
+  text-align: left; /* All section content left-aligned */
 }
 
 section h2 {
   font-size: 2rem;
+  font-weight: normal; /* Not bold */
   margin-bottom: 20px;
+  text-shadow: 0 0 8px #1db954;
+}
+
+section p, section li, .links a {
+  font-weight: normal; /* Not bold */
+  text-shadow: 0 0 6px #1db954;
 }
 
 /* Links */
 a {
   color: #eaeaea;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 10px 0 0;
   transition: all 0.3s ease;
 }
 
 a:hover {
-  color: #1db954; /* Spotify green glow on hover */
-  text-shadow: 0 0 10px #1db954;
+  color: #1db954; /* Glow on hover */
+  text-shadow: 0 0 12px #1db954, 0 0 20px #1db954;
+}
+
+/* Media Links */
+.links a:hover {
+  text-shadow: 0 0 12px #1db954, 0 0 20px #1db954;
 }
 
 /* Lists */
@@ -67,11 +87,18 @@ ul li {
 iframe {
   border-radius: 4px;
   margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+iframe:hover {
+  box-shadow: 0 0 20px #1db954, 0 0 40px #1db954;
 }
 
 /* Footer */
 footer {
   margin-top: 80px;
   font-size: 0.8rem;
-  color: #555;
+  color: #eaeaea;
+  text-align: left;
+  text-shadow: 0 0 6px #1db954;
 }
