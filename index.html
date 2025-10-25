@@ -23,26 +23,35 @@
     <!-- Music / Media Section -->
     <section id="media">
       <h2>Music & Media</h2>
-      <!-- Spotify Embed -->
-      <iframe src="https://open.spotify.com/embed/artist/2YZn7vPqfI4RGmYZEfDB44?utm_source=generator" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-     <!-- Apple Music Embed -->
-<div class="music-embed" style="margin-top: 1.5rem; display: flex; justify-content: center;">
-  <iframe
-    allow="autoplay *; encrypted-media *;"
-    frameborder="0"
-    height="175"
-    style="
-      width:100%;
-      max-width:660px;
-      overflow:hidden;
-      background:transparent;
-      border-radius:12px;
-      box-shadow:0 4px 10px rgba(0,0,0,0.1);
-    "
-    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-    src="https://embed.music.apple.com/us/artist/broom/1590709119">
-  </iframe>
+      <!-- 🎵 Unified Music Embed Section -->
+<div class="music-embeds" style="display:flex;flex-direction:column;align-items:center;gap:1.5rem;margin-top:2rem;">
+
+  <!-- Spotify Embed -->
+  <div style="background:#121212;border-radius:12px;padding:10px;box-shadow:0 4px 10px rgba(0,0,0,0.2);max-width:660px;width:100%;">
+    <iframe
+      style="border-radius:12px;"
+      src="https://open.spotify.com/embed/album/YOUR_SPOTIFY_ALBUM_ID"
+      width="100%"
+      height="380"
+      frameborder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+  </div>
+
+  <!-- Apple Music Embed -->
+  <div style="background:#121212;border-radius:12px;padding:10px;box-shadow:0 4px 10px rgba(0,0,0,0.2);max-width:660px;width:100%;">
+    <iframe
+      allow="autoplay *; encrypted-media *;"
+      frameborder="0"
+      height="175"
+      style="width:100%;overflow:hidden;background:transparent;border-radius:12px;"
+      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+      src="https://embed.music.apple.com/us/artist/broom/1590709119">
+    </iframe>
+  </div>
+
 </div>
+
 
       <div class="links">
         <a href="https://broomnyc.bandcamp.com/" target="_blank">Bandcamp</a>
